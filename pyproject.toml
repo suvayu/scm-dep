@@ -1,10 +1,7 @@
 [project]
 name = "sa-bar"
 dynamic = ["version"]
-dependencies = [
-  "sa-foo >= 0.3",
-  "sa-baz >= 0.1",
-]
+dependencies = ["sa-foo>=0.6.0", "sa-baz>=0.2.0"]
 
 [build-system]
 requires = ["setuptools>=64", "setuptools_scm[toml]>=6.2", "wheel", "build"]
